@@ -1,0 +1,35 @@
+
+h1{
+    color: white;
+}
+
+body{
+    background-color:black;
+}
+
+
+.hidden{
+    display:none;
+}
+
+.poster-area{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(10px,1fr));
+
+}
+
+.poster-area img {
+    width:80%;
+    
+}
+
+.movie-details{
+    color:white;
+}
+
+p{
+    font-size: 24px;
+    display:inline;
+    text-align: center;
+    margin: 8px;
+}
